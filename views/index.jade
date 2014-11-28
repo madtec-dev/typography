@@ -1,0 +1,240 @@
+extends layout
+
+block content 
+  header.brand
+    div.layout.layout--middle
+      div(class="1/2").layout__item
+        h1.typl8-giga Madtec
+        //img(src="images/logo-madtec.svg").brand__logo
+      div(class="1/2").layout__item
+        nav.menu
+          span.menu__icon.panel__button--open.alpha(aria-hidden="true" data-icon!="&#xe600")
+          div.panel
+            span.menu__icon.panel__button--close.beta(aria-hidden="true" data-icon!="&#xe604")
+            ul.menu__list.list-bare.list-block
+              li que hacemos
+              li quienes somos
+              li casos de estudio
+              li contacto
+              li 
+                a(href="start-project") empezar un proyecto
+
+  //section.front
+    div#video-wrap
+      video#front__video(autoplay preload="true" poster="images/brand.jpg")
+        source(src="/videos/gran-via-sunny.mp4" type="video/mp4")
+        source(src="/videos/gran-via-sunny.webm" type="video/webm")
+        source(src="/videos/gran-via-sunny.ogv" type="video/ogg")
+    //figure.front__img
+  div.wrap
+    div.brand__tagline(class="pt+")(class="pb+")
+      h3 
+        small websites, apps, internet
+      h3 ideas, personas e innovacion
+      h2 creamos experiencias digitales
+
+  section.services
+    div.layout
+      div.layout__item
+        div.services__header
+          h2.services__title que hacemos
+          p.services__tagline 
+            span nos involucramos con las marcas para 
+            span desarrollar proyectos e ideas creativas.
+        div.services__body
+          ul.services-list
+            li(class="palm-1/1 lap-and-up-1/2").services-list__item
+              div.service
+                //img(src="/images/image.png").service__image 
+                div.service__body
+                  h3.service__title analisis 
+                  p Estudiamos tu negocio y su relacion con internet. Procuramos
+                    | comprender la utilizacion que le vas a dar y al publico al que va
+                    | destinado. Escuchamos las necesidades que se desean cubrir y
+                    | proponemos alternativas y soluciones.
+                  h4.service__subtitle negocio
+                  p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    | tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.
+                  h4.service__subtitle estrategia
+                  p.last Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    | tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.
+            li(class="palm-1/1 lap-and-up-1/2").services-list__item
+              div.service
+                a(href="#")
+                  //img(src="/images/image.png").service__image 
+                div.service__body
+                  h3.service__title creacion
+                  p La marca distingue de la competencia. Por eso nuestros disenos
+                    | siempre son personalizados. Agregamos valor a tu marca mediante una
+                    | gratificante experiencia de usuario.
+                  h4.service__subtitle diseño
+                  p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    | tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.
+                  h4.service__subtitle personalizacion
+                  p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    | tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.
+            li(class="palm-1/1 lap-and-up-1/2").services-list__item
+              div.service
+                a(href="#")
+                  //img(src="/images/image.png").service__image 
+                div.service__body
+                  h3.service__title desarrollo
+                  p Utilizar las ultimas tecnologias nos permite crear desde websites
+                    | tradicionales hasta aplicaciones modernas.
+                  p La visibilidad en todo tipo de dispositivos y plataformas es 
+                    | inprescindible para lograr el exito en un mundo interconectado
+                    | como el de hoy.
+                  h4.service__subtitle vanguardia
+                  p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    | tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.
+                  h4.service__subtitle multi-plataforma
+                  p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    | tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.
+            li(class="palm-1/1 lap-and-up-1/2").services-list__item
+              div.service
+                a(href="#")
+                  //img(src="/images/image.png").service__image 
+                div.service__body
+                  h3.service__title social
+                  p Creemos que la comunicacion es una herramienta necesaria para el exito
+                    | de tu negocio. Un website bien conectado socialmente maximiza su 
+                    | impacto en el publico objetivo. Nuestra mision aqui es hacer que tu
+                    | inversion en publicidad sea rentable.
+                  h4.service__subtitle comunicacion
+                  p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    | tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.
+                  h4.service__subtitle publicidad
+                  p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    | tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.
+            li(class="palm-1/1 lap-and-up-1/2").services-list__item
+              div.service
+                a(href="#")
+                  //img(src="/images/image.png").service__image 
+                div.service__body
+                  h3.service__title gestion
+                  p El desarrollo de un producto digital tambien implica las actividades necesarias
+                    | de soporte. Un website debe estar vivo. Mantenerlo actualizado y analizar la 
+                    | interaccion y el flujo de los usuarios garantiza el exito del proyecto.
+                  h4.service__subtitle soporte 
+                  p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    | tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.
+                  h4.service__subtitle mantenimiento
+                  p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    | tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.
+
+  section.about
+    div.layout
+      div.layout__item
+        div.about__header
+          h2.about__title quienes somos
+          p.about__tagline 
+            span somos una innovadora agencia de Madrid enfocada  
+            span en el desarrollo de proyectos digitales de alta calidad
+        div.about__body
+          h4.about__subtitle la agencia
+          p Madtec esta compuesto por un grupo de personas de distintos sectores 
+            | que nos unimos para realizar
+            | proyectos digitales, nos encanta compartir ideas con nuestros clientes y trabajar
+            | juntos para lograr objetivos.
+
+          h4.about__subtitle en que creemos
+          p creemos en el trabajo hecho cuidadosamente y en la   
+            | capacidad de la tecnologia para transmitir ideas y potenciar negocios. 
+            | Preferimos la flexibilidad  a la rigidez y pensamos que los proyectos 
+            | evalocuionan constantemente.
+
+          h4.about__subtitle como lo hacemos
+          p.last nuestra forma de trabjar es agil y dinamica, nos gustan los procesos  
+            | iterativos y sencillos donde la comunicacion es lo mas importante.
+  section.team
+    div.layout
+      div.layout__item
+        ul.team-list
+          li(class="palm-1/1 lap-1/2 desk-1/3").team-list__item
+            div.member
+              a(href="#").member__link
+                //img(src="/images/avatar.png").member__image
+            div.member__body
+              h3.member__name Angel Villar
+              p.member__work back-end developer
+          li(class="palm-1/1 lap-1/2 desk-1/3").team-list__item
+            div.member
+              a(href="#").member__link
+                //img(src="/images/avatar.png").member__image
+            div.member__body
+              h3.member__name Jorge Muñoz-Delgado
+              p.member__work back-end developer
+          li(class="palm-1/1 lap-1/2 desk-1/3").team-list__item
+            div.member
+              a(href="#").member__link
+                //img(src="/images/avatar.png").member__image
+            div.member__body
+              h3.member__name Jamie Caroccio
+              p.member__work content manager
+          li(class="palm-1/1 lap-1/2 desk-1/3").team-list__item
+            div.member
+              a(href="#").member__link
+                //img(src="/images/avatar.png").member__image
+            div.member__body
+              h3.member__name Jose Julio Rodriguez
+              p.member__work photography and video
+          li(class="palm-1/1 lap-1/2 desk-1/3").team-list__item
+            div.member
+              a(href="#").member__link
+                //img(src="/images/avatar.png").member__image
+            div.member__body
+              h3.member__name Inigo Leza
+              p.member__work graphic design and branding creative
+          li(class="palm-1/1 lap-1/2 desk-1/3").team-list__item
+            div.member
+              a(href="#").member__link
+                //img(src="/images/avatar.png").member__image
+            div.member__body
+              h3.member__name Antonio Dueñas
+              p.member__work information architecture
+  
+  section.cases
+    div.layout
+      div.layout__item
+        div.cases__header
+          h2.cases__title casos de estudio
+          p.cases__tagline 
+            span te invitamos a conocer las historias que hay
+            span detras de el exito de otras marcas.
+        div.cases__body
+          ul.cases-list
+            li.cases-list__item
+              div.case
+                //img(src="/images/image.png").case__image
+              div.case__body
+                h3.case__title el molar de rus.
+                p 
+                  span el molar de rus es una casa rural situada en 
+                  span Fuentealvilla, Albacete. De larga tradicion 
+                  span vinicultora, apuesta firmemente por el turismo 
+                  span cultural y los vinos de produccion ecologica.
+                p.last
+                  a(href="#").case__know-more Saber mas...
+
+  section.contact
+    div.layout
+      div.layout__item
+        h2.contact__title contacto
+        p.last 
+          a(href="mailto:info@madtec.es").contact__email info@madtec.es
+
+  footer.footer
+    div.layout
+      div.layout__item
+        div.social
+          ul.social-list
+            li.social-list__item 
+                span(aria-hidden="true" data-icon!="&#xe601").beta.social__icon
+            li.social-list__item  
+                span(aria-hidden="true" data-icon!="&#xe602").beta.social__icon
+            li.social-list__item  
+                span(aria-hidden="true" data-icon!="&#xe603").beta.social__icon
+
+      div.layout__item
+        div.copyright
+          p.last © 2014 - Todos los derechos reservados
