@@ -1,5 +1,6 @@
 @include font-face('Aleo', '/web-fonts/Aleo/AleoR'); 
 @include font-face('Aleo', '/web-fonts/Aleo/AleoL', $weight: 300); 
+@include font-face('Aleo', '/web-fonts/Aleo/AleoI', $style: italic); 
 @include font-face('icons', '/web-fonts/icons/icons');
 
 $typl8-font-family: 'Aleo', sans-serif;
