@@ -9,6 +9,24 @@ License ....... Creative Commmons Attribution 3.0
 License URL ... https://github.com/typeplate/starter-kit/blob/master/license.txt
 */
 @font-face {
+  font-family: "Aleo";
+  src: url("/web-fonts/Aleo/AleoR.eot");
+  src: url("/web-fonts/Aleo/AleoR.eot?#iefix") format("embedded-opentype"), url("/web-fonts/Aleo/AleoR.woff") format("woff"), url("/web-fonts/Aleo/AleoR.ttf") format("truetype"), url("/web-fonts/Aleo/AleoR.svg#Aleo") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "Aleo";
+  src: url("/web-fonts/Aleo/AleoL.eot");
+  src: url("/web-fonts/Aleo/AleoL.eot?#iefix") format("embedded-opentype"), url("/web-fonts/Aleo/AleoL.woff") format("woff"), url("/web-fonts/Aleo/AleoL.ttf") format("truetype"), url("/web-fonts/Aleo/AleoL.svg#Aleo") format("svg");
+  font-weight: 300;
+  font-style: normal; }
+@font-face {
+  font-family: "icons";
+  src: url("/web-fonts/icons/icon.eot");
+  src: url("/web-fonts/icons/icon.eot?#iefix") format("embedded-opentype"), url("/web-fonts/icons/icon.woff") format("woff"), url("/web-fonts/icons/icon.ttf") format("truetype"), url("/web-fonts/icons/icon.svg#icons") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
   font-family: "Ampersand";
   src: local("Georgia"), local("Garamond"), local("Palatino"), local("Book Antiqua");
   unicode-range: U+0026; }
@@ -34,7 +52,7 @@ pre code {
   word-wrap: normal; }
 
 html {
-  font: normal 112.5%/1.65 Verdana, sans-serif; }
+  font: normal 112.5%/1.65 "Aleo", sans-serif; }
 
 body {
   -webkit-hyphens: auto;
@@ -278,3 +296,15 @@ p + .typl8-drop-cap {
  * Extend this object into your markup.
  *
  */
+/*
+ * icons
+ */
+[data-icon]:before {
+  font-family: 'icons';
+  content: attr(data-icon);
+  speak: none;
+  font-weight: normal;
+  line-height: 1;
+  padding-right: .25em;
+  -webkit-font-smoothing: antialiased;
+  font-smooth: antialiased; }

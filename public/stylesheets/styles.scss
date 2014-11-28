@@ -1,1 +1,16 @@
 @import "typeplate";
+
+/*
+ * icons
+ */
+[data-icon]:before {
+  font-family: 'icons';
+  content: attr(data-icon);
+  speak: none;
+  font-weight: normal;
+  line-height: 1;
+  padding-right: .25em;
+  -webkit-font-smoothing: antialiased;
+  font-smooth: antialiased;
+
+}
