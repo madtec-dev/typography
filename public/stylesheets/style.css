@@ -58,7 +58,7 @@ pre code {
   word-wrap: normal; }
 
 html {
-  font: normal 112.5%/1.65 "Aleo", sans-serif; }
+  font: normal 112.5%/1.65 "Aleo", serif; }
 
 body {
   -webkit-hyphens: auto;
@@ -315,7 +315,7 @@ p + .typl8-drop-cap {
   -webkit-font-smoothing: antialiased; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Ubuntu', sans-serif; }
+  font-family: "Ubuntu", sans-serif; }
 
 blockquote {
   font-style: italic; }
