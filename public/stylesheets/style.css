@@ -314,6 +314,9 @@ p + .typl8-drop-cap {
   padding-right: .25em;
   -webkit-font-smoothing: antialiased; }
 
+body {
+  padding: 0 1em; }
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "Ubuntu", sans-serif; }
 
